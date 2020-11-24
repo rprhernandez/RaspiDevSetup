@@ -2,7 +2,7 @@
  
 # Updated 2020-11-24
 
-BASE_DIR='~/tempRaspiDevSetup'
+BASE_DIR=~/tempRaspiDevSetup
 
 BLUE='\033[0;34m'
 CYAN='\033[0;36m'
