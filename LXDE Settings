@@ -1,0 +1,4 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@lxterminal --geometry=48x15 --command "/home/pi/SmartHouse/LauncherX.sh"
+@xscreensaver -no-splash

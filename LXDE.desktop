@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=LXDE
+Comment=Shortcut to Autostart.. Executes command After GUI
+Icon=/usr/share/pixmaps/openbox.xpm
+Exec=sudo leafpad /home/pi/.config/lxsession/LXDE-pi/autostart
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Categories=None;

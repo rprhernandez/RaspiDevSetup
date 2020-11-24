@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=rc.local (Pre Log-in)
+Comment=Shortcut to rc.local.. Executes command Before Log-In
+Icon=/usr/share/pixmaps/openbox.xpm
+Exec=sudo leafpad /etc/rc.local
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Categories=None;
