@@ -2,6 +2,8 @@
  
 # Updated 2020-11-24
 
+BASE_DIRECTORY='/tempRaspiDevSetup'
+
 BLUE='\033[0;34m'
 CYAN='\033[0;36m'
 RED='\033[0;31m'
@@ -11,6 +13,13 @@ BOLD='\033[1m'
 
 echo "${CYAN}${BOLD}Updating Raspberry pi${NC}"
 echo "${CYAN}${BOLD}Please wait...!${NC}"
+
+# Creating Directory for Dorsa
+echo "${BLUE}${BOLD}Creating Directory for Installer!${NC}"
+echo "${BLUE}${BOLD}    - mkdir /tempRaspiDevSetup!${NC}"
+sudo mkdir $BASE_DIRECTORY
+echo "${BLUE}${BOLD}    - chown $USER /tempRaspiDevSetup!${NC}"
+sudo chown $USER $BASE_DIRECTORY
 
 # Disable Screensaver
 echo "${BLUE}${BOLD}Disabling Screensaver!${NC}"
