@@ -2,7 +2,7 @@
  
 # Updated 2020-11-24
 
-BASE_DIRECTORY='/tempRaspiDevSetup'
+BASE_DIR='~/tempRaspiDevSetup'
 
 BLUE='\033[0;34m'
 CYAN='\033[0;36m'
@@ -16,10 +16,10 @@ echo "${CYAN}${BOLD}Please wait...!${NC}"
 
 # Creating Directory for Dorsa
 echo "${BLUE}${BOLD}Creating Directory for Installer!${NC}"
-echo "${BLUE}${BOLD}    - mkdir /tempRaspiDevSetup!${NC}"
-sudo mkdir $BASE_DIRECTORY
-echo "${BLUE}${BOLD}    - chown $USER /tempRaspiDevSetup!${NC}"
-sudo chown $USER $BASE_DIRECTORY
+echo "${BLUE}${BOLD}    - mkdir $BASE_DIR!${NC}"
+sudo mkdir $BASE_DIR
+echo "${BLUE}${BOLD}    - chown $USER $BASE_DIR!${NC}"
+sudo chown $USER $BASE_DIR
 
 # Disable Screensaver
 echo "${BLUE}${BOLD}Disabling Screensaver!${NC}"
